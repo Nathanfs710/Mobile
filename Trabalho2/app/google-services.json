@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "754223725760",
+    "firebase_url": "https://crudtrabalho2.firebaseio.com",
+    "project_id": "crudtrabalho2",
+    "storage_bucket": "crudtrabalho2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754223725760:android:84043048ad67d8242c8125",
+        "android_client_info": {
+          "package_name": "com.ntfs.trabalho2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754223725760-v844ac6aeur05ojvknet7dgum6oqm146.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ntfs.trabalho2",
+            "certificate_hash": "5fb5fe3885c6ecf57fecbf19277ac1ed3f7a87da"
+          }
+        },
+        {
+          "client_id": "754223725760-t35q5to8k8pe4of2dod0gl7iuf1chl9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkNMXOTCOlUO7oma9omeSTRrPgQQ2Lvic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754223725760-t35q5to8k8pe4of2dod0gl7iuf1chl9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

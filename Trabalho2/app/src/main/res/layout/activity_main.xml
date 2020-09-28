@@ -10,9 +10,12 @@
         android:id="@+id/buttonADD"
         android:layout_width="98dp"
         android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
         android:text="Adicionar"
         app:layout_constraintBottom_toBottomOf="@+id/buttonEDIT"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="0.24"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/buttonEDIT"
         app:layout_constraintVertical_bias="0.0" />
@@ -22,9 +25,12 @@
         android:layout_width="98dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="500dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
         android:text="Editar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.747"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.53" />
@@ -43,37 +49,51 @@
         android:adjustViewBounds="true"
         android:cropToPadding="true"
         android:scaleType="centerCrop"
-        app:layout_constraintBottom_toTopOf="@+id/listViewCarros"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/audicandeia" />
 
     <ListView
         android:id="@+id/listViewCarros"
         android:layout_width="0dp"
-        android:layout_height="403dp"
-        android:layout_marginTop="6dp"
+        android:layout_height="400dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.285">
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.042">
 
     </ListView>
 
     <EditText
         android:id="@+id/editTextNumberCar"
-        android:layout_width="178dp"
+        android:layout_width="350dp"
         android:layout_height="46dp"
+        android:layout_marginTop="15dp"
         android:layout_marginBottom="14dp"
         android:ems="10"
         android:hint="Digite o ID :"
         android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/buttonEDIT"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/guideline" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listViewCarros" />
+
+    <Button
+        android:id="@+id/buttonDEL"
+        android:layout_width="98dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Deletar"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonEDIT"
+        app:layout_constraintEnd_toStartOf="@+id/buttonEDIT"
+        app:layout_constraintStart_toEndOf="@+id/buttonADD"
+        app:layout_constraintTop_toTopOf="@+id/buttonEDIT" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

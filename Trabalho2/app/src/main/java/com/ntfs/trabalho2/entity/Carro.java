@@ -54,6 +54,14 @@ public class Carro implements Serializable {
         this.ano = ano;
     }
 
+    public static int getC() {
+        return c;
+    }
+
+    public static void setC(int c) {
+        Carro.c = c;
+    }
+
     @Override
     public String toString() {
         return
